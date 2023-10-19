@@ -1,0 +1,27 @@
+# frozen_string_literal: true
+
+require 'mongodb/sql/mql/aggregation'
+require 'mongodb/sql/mql/command'
+
+require 'mongodb/sql/ast/concerns/dumpable'
+
+require 'mongodb/sql/ast/alias'
+require 'mongodb/sql/ast/binary_expression'
+require 'mongodb/sql/ast/column'
+require 'mongodb/sql/ast/constant'
+require 'mongodb/sql/ast/count'
+require 'mongodb/sql/ast/delete'
+require 'mongodb/sql/ast/from_clause'
+require 'mongodb/sql/ast/identifier'
+require 'mongodb/sql/ast/index'
+require 'mongodb/sql/ast/insert'
+require 'mongodb/sql/ast/join'
+require 'mongodb/sql/ast/limit_clause'
+require 'mongodb/sql/ast/order_clause'
+require 'mongodb/sql/ast/select'
+require 'mongodb/sql/ast/table'
+require 'mongodb/sql/ast/table_expr'
+require 'mongodb/sql/ast/table_ref'
+require 'mongodb/sql/ast/update'
+require 'mongodb/sql/ast/variable'
+require 'mongodb/sql/ast/where_clause'
